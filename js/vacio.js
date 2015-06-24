@@ -19,7 +19,7 @@ function onDeviceReady() {
     db.transaction(initDB, errorCB, successCB);
 	db.transaction(insertDB, errorCB, successCB);
 	db.transaction(initDB1, errorCB, successCB);
-	db.transaction(insertDB, errorCB, successCB);
+	db.transaction(insertDB1, errorCB, successCB);
 	db.transaction(initDB2, errorCB, successCBu);
 
 }
