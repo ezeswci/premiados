@@ -1,0 +1,11 @@
+Base de datos
+
+Tablas:
+
+-usuario: 
+	usu_monedas
+
+-premios:
+	pr_id
+
+	

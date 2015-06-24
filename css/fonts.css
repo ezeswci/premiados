@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Berlin Sans Fb Demi';
+  font-style: normal;
+  font-weight: normal;
+  src: url('BRLNSDB.eot'); /* IE9 Compat Modes */
+  src: url('BRLNSDB?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('BRLNSDB.woff') format('woff'), /* Modern Browsers */
+         url('BRLNSDB.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('BRLNSDB.svg#BRLNSDB') format('svg'); /* Legacy iOS */
+}

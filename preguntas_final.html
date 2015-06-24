@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Premiados</title>
+    <script src="cordova.js" type="text/javascript"></script>
+    <script src="js/lib/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="js/leerbaseacumula.js" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <a href="http://emergencias.com.ar/" target="new"><div class="header_publi"><div class="wrapper"><img src="img/banner2.jpg" width="100%" /></div></div></a>
+    <div class="header_carga">
+        <div class="datos_base">
+        	<div class="login"><p>(Login)</p></div>
+            <div class="puntos"><p id="val_mon">0</p></div>
+        </div>
+        <div class="titulo">FINAL <!--<button onClick="startAudioRec()">Start</button>&nbsp;&nbsp;&nbsp;
+<button onClick="stopAudioRec()">Stop</button>-->
+        </div>
+    </div>
+    <div class="cuerpo_preguntas">
+        <!--        CALENDARIO / RELOJ      -->
+        <div class="completo">
+        	<div class="puntos">Acumulado:</br> <span id="mon_ac">0</span> Estrellas</div>
+            <div class="pregunta">¿ Te gustaria contestar una pregunta al estilo encuesta por 20 Estrellas más?</div>
+            <div class="si_no">
+       	    	<img src="img/boton_no.png" onclick="window.location='preguntas_final_acumulado.html';" width="106" height="106" class="no" /> 
+                <img src="img/boton_si.png" onclick="window.location='encuesta.html';" width="106" height="106" class="si" /> 
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

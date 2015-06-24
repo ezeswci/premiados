@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Premiados</title>
+    <script src="cordova.js" type="text/javascript"></script>
+    <script src="js/lib/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="js/leerbaseacumulafinal.js" type="text/javascript"></script>
+    <script src="js/encuesta.js" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <a href="http://emergencias.com.ar/" target="new"><div class="header_publi"><div class="wrapper"><img src="img/banner2.jpg" width="100%" /></div></div></a>
+    <div class="header_carga">
+        <div class="datos_base">
+        	<div class="login"><p>(Login)</p></div>
+            <div class="puntos"><p id="val_mon">0</p></div>
+        </div>
+        <div class="titulo">PREGUNTA</div>
+    </div>
+    <div class="cuerpo_preguntas">
+        <!--        CALENDARIO / RELOJ      -->
+        <div class="completo">
+        	<div class="puntos" id="val_pr">ESPERANDO</div>
+            <div class="pregunta" id="op0">Espere mientras carga</div>
+            <div class="opcion" id="op1" onclick="selectPregunta('1')">ESPERANDO</div>
+            <div class="opcion" id="op2" onclick="selectPregunta('2')">ESPERANDO</div>
+            <div class="opcion" id="op3" onclick="selectPregunta('3')">ESPERANDO</div>
+            <div class="opcion" id="op4" onclick="selectPregunta('4')">ESPERANDO</div>
+        </div>
+    </div>
+</body>
+
+</html>
