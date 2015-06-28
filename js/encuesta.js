@@ -6,11 +6,11 @@ window.opcionActual;
 window.puntosActual;
 
 function cargarPreguntas(){
-	window.preguntas[0]={val:20, op0:"¿cual es su hamburguesa preferida en mc donald's?", op1:"Cuarto de Libra",  op2:"Con Queso", op3:"Big-Mac", op4:"Me dan lo mismo",opT:3};
-	window.preguntas[1]={val:20, op0:"¿cual es su Fiat preferido?", op1:"Punto",  op2:"Uno", op3:"Palio", op4:"Me dan lo mismo",opT:3};
-	window.preguntas[2]={val:20, op0:"¿cual es su Fiat preferido?", op1:"Punto",  op2:"Uno", op3:"Palio", op4:"Me dan lo mismo",opT:3};
-	window.preguntas[3]={val:20, op0:"¿cual es su Fiat preferido?", op1:"Punto",  op2:"Uno", op3:"Palio", op4:"Me dan lo mismo",opT:3};
-	window.preguntas[4]={val:20, op0:"¿cual es su Fiat preferido?", op1:"Punto",  op2:"Uno", op3:"Palio", op4:"Me dan lo mismo",opT:3};
+	window.preguntas[0]={val:20, op0:"¿Cual es su hamburguesa preferida en mc donald's?", op1:"Cuarto de Libra",  op2:"Con Queso", op3:"Big-Mac", op4:"Me dan lo mismo",opT:3};
+	window.preguntas[1]={val:20, op0:"¿Cual es su Fiat preferido?", op1:"Punto",  op2:"Uno", op3:"Palio", op4:"Me dan lo mismo",opT:3};
+	window.preguntas[2]={val:20, op0:"¿Cual es su Helado preferido?", op1:"Frutilla",  op2:"Chocolate", op3:"Americana", op4:"Me dan lo mismo",opT:3};
+	window.preguntas[3]={val:20, op0:"¿cual es su Mate preferido?", op1:"Amargo",  op2:"Dulce", op3:"Herbal", op4:"Me dan lo mismo",opT:3};
+	window.preguntas[4]={val:20, op0:"¿cual es su Agua preferida?", op1:"Nestle",  op2:"Dasani", op3:"Villa del Sur", op4:"Me dan lo mismo",opT:3};
 	jugarRonda();
 }
 function jugarRonda(){
