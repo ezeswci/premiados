@@ -990,6 +990,7 @@ body {
 	height:100%;
 	text-align:center;
 	  background-color: #F7F4EF;
+	  overflow:hidden;
 }
 .cuerpo_preguntas .completo .puntos{
 	width:100%;
