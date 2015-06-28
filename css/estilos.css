@@ -982,6 +982,8 @@ body {
 	height:100%;
 	padding-top:152px;
 	background-color:#F7F4EF;
+	overflow:hidden;
+	min-height:100vh;
 }
 .cuerpo_preguntas .completo{
 	width:100%;
@@ -1050,6 +1052,7 @@ body {
 	width:100%;
 	height:calc(100% - 260px);
 	overflow-y:auto;
+	padding-bottom:130px;
 }
 .cuerpo_preguntas .completo .contenedor .prize-box{
 	width:28%;
